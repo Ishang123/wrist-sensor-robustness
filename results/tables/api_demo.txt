@@ -1,0 +1,7 @@
+window 1261: subject 1602, true activity A (walking)
+
+clean        {"prediction": "walking", "quality_score": 0.7105, "flagged": false, "reasons": [], "model_run": true}
+dropout L2   {"prediction": null, "quality_score": 0.0, "flagged": true, "reasons": ["gap"], "model_run": false}
+clipping L4  {"prediction": null, "quality_score": 0.0, "flagged": true, "reasons": ["clipping", "magnitude_out_of_range"], "model_run": false}
+noise L5     {"prediction": null, "quality_score": 0.0, "flagged": true, "reasons": ["noise", "anomalous_pattern"], "model_run": false}
+rotation L4  {"prediction": "walking", "quality_score": 0.3185, "flagged": false, "reasons": [], "model_run": true}

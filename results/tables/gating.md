@@ -1,0 +1,10 @@
+| model | gate | windows rejected % | accuracy % | macro-F1 % | corrupted share of kept % |
+|---|---|---|---|---|---|
+| GBM (features) | none | 0.0 | 69.2 ± 5.3 | 69.6 ± 4.9 | 30.0 (by construction) |
+| GBM (features) | validator | 11.2 ± 1.3 | 71.7 ± 5.5 | 72.5 ± 5.1 | 21.5 |
+| GBM (features) | confidence | 11.2 ± 1.3 | 74.9 ± 5.5 | 74.3 ± 5.1 | 27.0 |
+| GBM (features) | hybrid: rules + confidence | 11.2 ± 1.3 | 72.3 ± 5.7 | 72.8 ± 5.2 | 21.6 |
+| 1D CNN | none | 0.0 | 61.1 ± 5.4 | 61.3 ± 5.2 | 30.0 (by construction) |
+| 1D CNN | validator | 11.2 ± 1.3 | 63.1 ± 5.6 | 63.5 ± 5.4 | 21.5 |
+| 1D CNN | confidence | 11.2 ± 1.3 | 65.7 ± 5.7 | 64.7 ± 5.4 | 28.6 |
+| 1D CNN | hybrid: rules + confidence | 11.2 ± 1.3 | 63.6 ± 5.8 | 63.8 ± 5.5 | 21.7 |
