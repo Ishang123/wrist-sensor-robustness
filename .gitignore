@@ -1,0 +1,10 @@
+# Raw data is not redistributed here - download from UCI (see README)
+data/raw/
+data/*.npz
+data/*.pdf
+results/models/
+results/logs/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
